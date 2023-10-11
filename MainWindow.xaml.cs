@@ -53,7 +53,6 @@ namespace MyCalendarWPF
 
                 Calendrier myCalendar = new Calendrier(year, month);
 
-
                 //Appel De ma Classe Calendrier pour récupérer les jours d'un mois d'une Année
                 List<DateTime> myList = myCalendar.GetMonthDays();
 
